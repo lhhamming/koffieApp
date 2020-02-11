@@ -1,14 +1,14 @@
-package com.example.koffieapp;
+package com.example.koffieapp.User;
 
 import android.content.Intent;
-import android.provider.ContactsContract;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.example.koffieapp.Classes.User;
+import com.example.koffieapp.DataProfiler;
+import com.example.koffieapp.R;
 
 public class CreateUser extends AppCompatActivity {
 
