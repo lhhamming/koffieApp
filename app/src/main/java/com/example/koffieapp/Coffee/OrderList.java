@@ -9,7 +9,6 @@ import android.widget.LinearLayout;
 import android.widget.Toast;
 
 import com.example.koffieapp.Classes.User;
-import com.example.koffieapp.Coffee.CoffeeOrder;
 import com.example.koffieapp.DataProfiler;
 import com.example.koffieapp.R;
 
@@ -107,7 +106,7 @@ public class OrderList extends AppCompatActivity {
     }
 
     public void orderCoffee(View view){
-        Intent coffeeOrderScreen = new Intent(getBaseContext(), CoffeeOrder.class);
+        Intent coffeeOrderScreen = new Intent(getBaseContext(), CoffeeOrderList.class);
         coffeeOrderScreen.putExtra("selectedUsers", selectedUserArray);
         startActivity(coffeeOrderScreen);
     }

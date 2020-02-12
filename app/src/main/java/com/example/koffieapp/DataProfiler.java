@@ -16,6 +16,7 @@ public class DataProfiler {
 
     private void initialize() {
         usersList = new ArrayList<>();
+        coffeeList = new ArrayList<>();
     }
 
     public static DataProfiler getInstance(){

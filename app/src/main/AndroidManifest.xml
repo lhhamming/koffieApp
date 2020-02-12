@@ -9,8 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Coffee.CreateCoffee"></activity>
-        <activity android:name=".Coffee.CoffeeOrder" />
+        <activity android:name=".Coffee.CoffeeOrder"></activity>
+        <activity android:name=".Coffee.CreateCoffee" />
+        <activity android:name=".Coffee.CoffeeOrderList" />
         <activity android:name=".Coffee.OrderList" />
         <activity android:name=".User.CreateUser" />
         <activity android:name=".User.UserList" />
