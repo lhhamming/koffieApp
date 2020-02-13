@@ -1,4 +1,4 @@
-package com.example.koffieapp;
+package com.example.koffieapp.User;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -10,6 +10,9 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.koffieapp.Classes.User;
+import com.example.koffieapp.DataProfiler;
+import com.example.koffieapp.MainActivity;
+import com.example.koffieapp.R;
 
 import java.util.ArrayList;
 
@@ -49,5 +52,10 @@ public class UserList extends AppCompatActivity {
     public void addUser(View view) {
         Intent createUserIntent = new Intent(getBaseContext(), CreateUser.class);
         startActivity(createUserIntent);
+    }
+
+    public void goBack(View view) {
+        Intent mainScreen = new Intent(getBaseContext(), MainActivity.class);
+        startActivity(mainScreen);
     }
 }
